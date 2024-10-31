@@ -8,12 +8,17 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pdftotext = "^2.2.2"
+pdfplumber = "^0.11.4"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.8.0"
 isort = "^5.13.2"
 flake8 = "^7.1.1"
 pre-commit = "^3.8.0"
+ipykernel = "^6.29.5"
+
+[tool.poetry.scripts]
+bankscope = "bankscope.cli:main"
 
 [build-system]
 requires = ["poetry-core"]

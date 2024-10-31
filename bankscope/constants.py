@@ -1,0 +1,28 @@
+# Define the categories and their corresponding keywords
+categories = {
+    "Transport - Public": ["BUS/MRT"],
+    "Transport - Private": ["PARKING"],
+    "Meals - Food": [
+        "MCDONALDS",
+        "OMNIVORE",
+        "CHILLIPADI",
+        "KOPITIAM",
+        "SUPERTOPRE",
+        "7-ELEVEN",
+        "OLDSTREETB",
+        "BURGERKING",
+        "SONGFABAK",
+        "HAIDILAO",
+        "TS/PEPPERLU",
+        "THESALADSH",
+    ],
+    "Meals - Drinks": ["WTROLD-TEA-H", "SNPOLDTEAH", "PLAYMADE"],
+    "Wealth Fund": [],
+    "Beauty, Body Maintain": [],
+    "Clothing, Merchandising": [],
+    "Medical, Supplementation": [],
+    "Entertainment - Movie, Karaoke": [],
+    "Gifts": [],
+    "Mahjong - Outflow": [],
+    "Grab Pay": [],
+}

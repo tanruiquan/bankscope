@@ -22,7 +22,7 @@ repos:
         additional_dependencies: []  # You can add flake8 plugins here if needed
         entry: flake8
         language_version: python3  # Ensure compatibility with your Python version
-        args: [--max-line-length=88]  # To match Black's line length
+        args: [--ignore=E501]  # To match Black's line length
 
   - repo: https://github.com/pycqa/isort
     rev: 5.13.2
